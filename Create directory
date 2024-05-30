@@ -1,0 +1,3 @@
+$NewDirectory = "C:\NewDirectory"
+Write-Host "Creating a new directory: $NewDirectory"
+New-Item -ItemType Directory -Path $NewDirectory
